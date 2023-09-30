@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* It defines custom fonts "Poppins" and "Lora" using the @font-face rule, making them available to use in the project.  */
+@layer base {
+    @font-face {
+      font-family: "Poppins";
+      src: url(../public/fonts/Poppins-Regular.ttf);
+    }
+    @font-face {
+        font-family: "PoppinsBold";
+        src: url(../public/fonts/Poppins-Bold.ttf);
+      }
+  }
+  

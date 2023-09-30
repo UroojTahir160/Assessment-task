@@ -13,6 +13,30 @@
   }
 }
 
+/* Custom arrow styles */
+.custom-prev-arrow,
+.custom-next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px; /* Adjust arrow width as needed */
+  height: 40px; /* Adjust arrow height as needed */
+  background-color: #7926a1; /* Change to your desired color */
+  color: white;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-prev-arrow {
+  left: -60px; /* Adjust the gap between slides */
+}
+
+.custom-next-arrow {
+  right: -60px; /* Adjust the gap between slides */
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +60,4 @@
     transform: rotate(360deg);
   }
 }
+
